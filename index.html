@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="rules">
+            <h2>Rules</h2>
+            <ul>
+                <li>If Player 1 runs in div 2 of box 1 -> Player 2 can run in any div of box 2 </li>
+            </ul>
+           <button id="closeRule">Okay</button>
+        </div>
+        <h1> Super Tic Tac Toe</h1>
+        <h3>Choose Your Player :</h3>
+        <p id="default">(Default player is X)</p>
+        <div class="choice">
+            <button id="chooseX">X</button>
+            <button id="chooseO">O</button>
+        </div>
+        <div class="grid">
+            <div class="ROW1">
+                <div class="GRID1">
+                    <div class="row1">
+                        <div id="0" class="col1"></div>
+                        <div id="1" class="col1"></div>
+                        <div id="2" class="col1"></div>
+                    </div>
+                    <div class="row2">
+                        <div id="3" class="col1"></div>
+                        <div id="4" class="col1"></div>
+                        <div id="5" class="col1"></div>
+                    </div>
+                    <div class="row3">
+                        <div id="6" class="col1"></div>
+                        <div id="7" class="col1"></div>
+                        <div id="8" class="col1"></div>
+                    </div>
+                </div>
+                <div class="GRID2">
+                    <div class="row1">
+                        <div id="9" class="col2"></div>
+                        <div id="10" class="col2"></div>
+                        <div id="11" class="col2"></div>
+                    </div>
+                    <div class="row2">
+                        <div id="12" class="col2"></div>
+                        <div id="13" class="col2"></div>
+                        <div id="14" class="col2"></div>
+                    </div>
+                    <div class="row3">
+                        <div id="15" class="col2"></div>
+                        <div id="16" class="col2"></div>
+                        <div id="17" class="col2"></div>
+                    </div>
+                </div>
+                <div class="GRID3">
+                    <div class="row1">
+                        <div id="18" class="col3"></div>
+                        <div id="19" class="col3"></div>
+                        <div id="20" class="col3"></div>
+                    </div>
+                    <div class="row2">
+                        <div id="21" class="col3"></div>
+                        <div id="22" class="col3"></div>
+                        <div id="23" class="col3"></div>
+                    </div>
+                    <div class="row3">
+                        <div id="24" class="col3"></div>
+                        <div id="25" class="col3"></div>
+                        <div id="26" class="col3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ROW2">
+                <div class="GRID4">
+                    <div class="row1">
+                        <div id="27" class="col4"></div>
+                        <div id="28" class="col4"></div>
+                        <div id="29" class="col4"></div>
+                    </div> 
+                    <div class="row2">
+                        <div id="30" class="col4"></div>
+                        <div id="31" class="col4"></div>
+                        <div id="32" class="col4"></div>
+                    </div> 
+                    <div class="row3">
+                        <div id="33" class="col4"></div>
+                        <div id="34" class="col4"></div>
+                        <div id="35" class="col4"></div>
+                    </div>
+                </div>
+                <div class="GRID5">
+                    <div class="row1">
+                        <div id="36" class="col5"></div>
+                        <div id="37" class="col5"></div>
+                        <div id="38" class="col5"></div>
+                    </div>
+                    <div class="row2">
+                        <div id="39" class="col5"></div>
+                        <div id="40" class="col5"></div>
+                        <div id="41" class="col5"></div>
+                    </div>
+                    <div class="row3">
+                        <div id="42" class="col5"></div>
+                        <div id="43" class="col5"></div>
+                        <div id="44" class="col5"></div>
+                    </div>
+                </div>
+                <div class="GRID6">
+                    <div class="row1">
+                        <div id="45" class="col6"></div>
+                        <div id="46" class="col6"></div>
+                        <div id="47" class="col6"></div>
+                    </div>
+                    <div class="row2">
+                        <div id="48" class="col6"></div>
+                        <div id="49" class="col6"></div>
+                        <div id="50" class="col6"></div>
+                    </div>
+                    <div class="row3">
+                        <div id="51" class="col6"></div>
+                        <div id="52" class="col6"></div>
+                        <div id="53" class="col6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ROW3">
+                <div class="GRID7">
+                    <div class="row1">
+                        <div id="54" class="col7"></div>
+                        <div id="55" class="col7"></div>
+                        <div id="56" class="col7"></div>
+                    </div>
+                    <div class="row2">
+                        <div id="57" class="col7"></div>
+                        <div id="58" class="col7"></div>
+                        <div id="59" class="col7"></div>
+                    </div>
+                    <div class="row3">
+                        <div id="60" class="col7"></div>
+                        <div id="61" class="col7"></div>
+                        <div id="62" class="col7"></div>
+                    </div>
+                </div>
+                <div class="GRID8">
+                    <div class="row1">
+                        <div id="63" class="col8"></div>
+                        <div id="64" class="col8"></div>
+                        <div id="65" class="col8"></div>
+                    </div>
+                    <div class="row2">
+                        <div id="66" class="col8"></div>
+                        <div id="67" class="col8"></div>
+                        <div id="68" class="col8"></div>
+                    </div>
+                    <div class="row3">
+                        <div id="69" class="col8"></div>
+                        <div id="70" class="col8"></div>
+                        <div id="71" class="col8"></div>
+                    </div>
+                </div>
+                <div class="GRID9">
+                    <div class="row1">
+                        <div id="72" class="col9"></div>
+                        <div id="73" class="col9"></div>
+                        <div id="74" class="col9"></div>
+                    </div>
+                    <div class="row2">
+                        <div id="75" class="col9"></div>
+                        <div id="76" class="col9"></div>
+                        <div id="77" class="col9"></div>
+                    </div>
+                    <div class="row3">
+                        <div id="78" class="col9"></div>
+                        <div id="79" class="col9"></div>
+                        <div id="80" class="col9"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="result">Result:</p>
+        <button id="restart">Restart</button>
+        <button id="rule">Rules</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
