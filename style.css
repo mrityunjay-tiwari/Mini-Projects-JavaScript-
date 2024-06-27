@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    height: 120vh;
+    height: 150vh;
     width: 100%;
     display: flex;
     align-items: center;
